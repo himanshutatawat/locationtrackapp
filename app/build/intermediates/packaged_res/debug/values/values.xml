@@ -10,9 +10,9 @@
     <string name="app_name">Locationtrack</string>
     <string name="default_web_client_id" translatable="false">731673908946-sb0muvlh9oln6b4oedh5k2svcrne36k7.apps.googleusercontent.com</string>
     <string name="gcm_defaultSenderId" translatable="false">731673908946</string>
-    <string name="google_api_key" translatable="false">AIzaSyByyEGl2362zki0J9kdCjl1cC1ubfNf6cs</string>
+    <string name="google_api_key" translatable="false">your_google_maps_api_key</string>
     <string name="google_app_id" translatable="false">1:731673908946:android:b5e9c489b4213472a7ff0b</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyByyEGl2362zki0J9kdCjl1cC1ubfNf6cs</string>
+    <string name="google_crash_reporting_api_key" translatable="false">your_google_maps_api</string>
     <string name="google_storage_bucket" translatable="false">locationtrack-2bb6b.appspot.com</string>
     <string name="project_id" translatable="false">locationtrack-2bb6b</string>
     <string name="title_activity_maps">MapsActivity</string>
