@@ -1,0 +1,245 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.locationtrack"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="36" />
+9-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:4:5-81
+11-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:4:5-81
+13-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:5:5-79
+14-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:5:22-76
+15
+16    <!-- Include required permissions for Google Maps API to run. -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+18-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:24:22-64
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+23
+24    <queries>
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+25
+26        <!-- Needs to be explicitly declared on Android R+ -->
+27        <package android:name="com.google.android.apps.maps" />
+27-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+27-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:24:5-68
+30-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:24:22-65
+31    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+31-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:25:5-79
+31-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:25:22-76
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
+32-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+33
+34    <application
+34-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:12:5-57:19
+35        android:allowBackup="true"
+35-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:13:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.7.0] C:\Users\Admin\.gradle\caches\transforms-3\b1b799930b5a68e5d1cdebe5829c2b4f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+37        android:dataExtractionRules="@xml/data_extraction_rules"
+37-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:14:9-65
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:15:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:16:9-43
+42        android:label="@string/app_name"
+42-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:17:9-41
+43        android:supportsRtl="true"
+43-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:18:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.Locationtrack" >
+45-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:19:9-51
+46
+47        <!--
+48             TODO: Before you run your application, you need a Google Maps API key.
+49
+50             To get one, follow the directions here:
+51
+52                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+53
+54             Once you have your API key (it starts with "AIza"), define a new property in your
+55             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+56             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+57        -->
+58        <meta-data
+58-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:33:9-35:71
+59            android:name="com.google.android.geo.API_KEY"
+59-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:34:13-58
+60            android:value="AIzaSyCVOqPrLGNN8s2IYIPVLgRlSivRcHnnKh0" />
+60-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:35:13-68
+61
+62        <!-- <com.google.android.gms.maps.MapView -->
+63        <!-- android:id="@+id/mapView" -->
+64        <!-- android:layout_width="match_parent" -->
+65        <!-- android:layout_height="match_parent" -->
+66        <!-- android:apiKey="YOUR_API_KEY" -->
+67        <!-- android:clickable="true" -->
+68        <!-- android:focusable="true" -->
+69        <!-- android:layout_below="@id/textView" /> -->
+70
+71        <activity
+71-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:47:9-56:20
+72            android:name="com.example.locationtrack.MapsActivity"
+72-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:48:13-41
+73            android:exported="true"
+73-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:49:13-36
+74            android:label="@string/title_activity_maps" >
+74-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:50:13-56
+75            <intent-filter>
+75-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:51:13-55:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:52:17-69
+76-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:52:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:54:17-77
+78-->C:\Users\Admin\AndroidStudioProjects\Locationtrack\app\src\main\AndroidManifest.xml:54:27-74
+79            </intent-filter>
+80        </activity>
+81        <!-- Needs to be explicitly declared on P+ -->
+82        <uses-library
+82-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+83            android:name="org.apache.http.legacy"
+83-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+84            android:required="false" />
+84-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Admin\.gradle\caches\transforms-3\33415077024afd13974fed60e7030ad9\transformed\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+85
+86        <service
+86-->[com.google.firebase:firebase-database:20.2.0] C:\Users\Admin\.gradle\caches\transforms-3\044272472e8eea04ec17792347252681\transformed\firebase-database-20.2.0\AndroidManifest.xml:28:9-34:19
+87            android:name="com.google.firebase.components.ComponentDiscoveryService"
+87-->[com.google.firebase:firebase-database:20.2.0] C:\Users\Admin\.gradle\caches\transforms-3\044272472e8eea04ec17792347252681\transformed\firebase-database-20.2.0\AndroidManifest.xml:29:13-84
+88            android:directBootAware="true"
+88-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+89            android:exported="false" >
+89-->[com.google.firebase:firebase-database:20.2.0] C:\Users\Admin\.gradle\caches\transforms-3\044272472e8eea04ec17792347252681\transformed\firebase-database-20.2.0\AndroidManifest.xml:30:13-37
+90            <meta-data
+90-->[com.google.firebase:firebase-database:20.2.0] C:\Users\Admin\.gradle\caches\transforms-3\044272472e8eea04ec17792347252681\transformed\firebase-database-20.2.0\AndroidManifest.xml:31:13-33:85
+91                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+91-->[com.google.firebase:firebase-database:20.2.0] C:\Users\Admin\.gradle\caches\transforms-3\044272472e8eea04ec17792347252681\transformed\firebase-database-20.2.0\AndroidManifest.xml:32:17-109
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-database:20.2.0] C:\Users\Admin\.gradle\caches\transforms-3\044272472e8eea04ec17792347252681\transformed\firebase-database-20.2.0\AndroidManifest.xml:33:17-82
+93            <meta-data
+93-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+94                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+94-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\06c10f8bdfd4ed1d6a34b312f6a48487\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Admin\.gradle\caches\transforms-3\6ffa1b37b83ee53870e693a7ea36d54c\transformed\firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+97                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+97-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Admin\.gradle\caches\transforms-3\6ffa1b37b83ee53870e693a7ea36d54c\transformed\firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Admin\.gradle\caches\transforms-3\6ffa1b37b83ee53870e693a7ea36d54c\transformed\firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+99        </service>
+100
+101        <provider
+101-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+102            android:name="com.google.firebase.provider.FirebaseInitProvider"
+102-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+103            android:authorities="com.example.locationtrack.firebaseinitprovider"
+103-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+104            android:directBootAware="true"
+104-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+105            android:exported="false"
+105-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+106            android:initOrder="100" />
+106-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\4b4bd688355610aded40bdc032a95f7d\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+107
+108        <activity
+108-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\462d9b6682a4f02bc6643b3a84b759d7\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+109            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+109-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\462d9b6682a4f02bc6643b3a84b759d7\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\462d9b6682a4f02bc6643b3a84b759d7\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+111-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\462d9b6682a4f02bc6643b3a84b759d7\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+112
+113        <receiver
+113-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+114            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+114-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+115            android:enabled="true"
+115-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+116            android:exported="false" >
+116-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+117        </receiver>
+118
+119        <service
+119-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+120            android:name="com.google.android.gms.measurement.AppMeasurementService"
+120-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+121            android:enabled="true"
+121-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+122            android:exported="false" />
+122-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+123        <service
+123-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+124            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+124-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+125            android:enabled="true"
+125-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+127            android:permission="android.permission.BIND_JOB_SERVICE" />
+127-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\4afa6e9776703808fbf960cc27353282\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+128
+129        <meta-data
+129-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\1be5a84dfe85c9f41773bb78b68ec900\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+130            android:name="com.google.android.gms.version"
+130-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\1be5a84dfe85c9f41773bb78b68ec900\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+131            android:value="@integer/google_play_services_version" />
+131-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\1be5a84dfe85c9f41773bb78b68ec900\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+132
+133        <provider
+133-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\e8685e0883870bd6e9191c662f71a128\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+134            android:name="androidx.startup.InitializationProvider"
+134-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\e8685e0883870bd6e9191c662f71a128\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+135            android:authorities="com.example.locationtrack.androidx-startup"
+135-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\e8685e0883870bd6e9191c662f71a128\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+136            android:exported="false" >
+136-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\e8685e0883870bd6e9191c662f71a128\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+137            <meta-data
+137-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\e8685e0883870bd6e9191c662f71a128\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+138                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+138-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\e8685e0883870bd6e9191c662f71a128\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+139                android:value="androidx.startup" />
+139-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\e8685e0883870bd6e9191c662f71a128\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+140            <meta-data
+140-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ba1dc3c649b0787f0ab56ff2cbf10040\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+141                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+141-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ba1dc3c649b0787f0ab56ff2cbf10040\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+142                android:value="androidx.startup" />
+142-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ba1dc3c649b0787f0ab56ff2cbf10040\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+143        </provider>
+144    </application>
+145
+146</manifest>
